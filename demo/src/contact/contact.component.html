@@ -1,0 +1,7 @@
+<div>
+    <form (ngSubmit)="submit()">
+        <input type="text" name="name" value="" [(ngModel)]="person.name" #name="ngModel"/>
+        <input type="text" name="mssv" value="" [(ngModel)]="person.mssv" #mssv="ngModel"/>
+        <button type="submit">Submit</button>
+    </form>
+</div>
